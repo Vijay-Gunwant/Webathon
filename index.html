@@ -3,7 +3,8 @@
     <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Course Dhundo</title>
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     </head>
     <body>
@@ -16,32 +17,73 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="about.html">About Us</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Categories
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Computer Science & Technology</a></li>
-                      <li><a class="dropdown-item" href="#">Commerce</a></li>
-                      <li><a class="dropdown-item" href="#">Enviroment</a></li>
-                      <li><a class="dropdown-item" href="#">Applied Science</a></li>
+                      <li><a class="dropdown-item" href="gopal.html">Computer Science & Technology</a></li>
+                      <li><a class="dropdown-item" href="gopal.html">Commerce</a></li>
+                      <li><a class="dropdown-item" href="gopal.html">Enviroment</a></li>
+                      <li><a class="dropdown-item" href="gopal.html">Applied Science</a></li>
                       <li><hr class="dropdown-divider"></li>
                       <li><a class="dropdown-item" href="#">Choose your Field</a></li>
                     </ul>
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
+                 <button class="btn btn-outline-success mx-1" type="submit">
+                    <a href="loginPage.html">
+                        LogIn
+                    </a>
+                </button>
+                 <button class="btn btn-outline-success" type="submit">
+                    <a href="SignUp.html">
+                    SignUp
+                </a></button>
                 </form>
               </div>
             </div>
           </nav>
+
+          
+          <div class="main_con">
+
+                <form class="d-flex" role="search" style="width:80vh">
+                    <input class="form-control me-2" type="search" placeholder="Search among 10000+ programs" aria-label="Search">
+                    <button class="btn btn-primary" type="submit">Search</button>
+                </form>
+                
+                <div class="cardbox my-5">
+                    <div class="card" style="width: 8rem;">
+                        <img src="./Images/course_era.png" class="card-img-top" alt="Course Era">
+                    </div>
+                    <div class="card" style="width: 8rem;">
+                        <img src="./Images/uograd2.png" class="card-img-top" alt="...">
+                        
+                    </div>
+                    <div class="card" style="width: 8rem;">
+                        <img src="./Images/edc.png" class="card-img-top" alt="...">
+                        
+                    </div>
+                </div>
+                <div class="cardbox" id="lowerbox">
+                    <div class="card" style="width: 8em; " id="pw">
+                        <img src="./Images/pw1.png" class="card-img-top" alt="...">
+                        
+                    </div>
+                    <div class="card" style="width: 8rem;" id="swayam">
+                        <img src="./Images/swayam.png" class="card-img-top" alt="...">
+                        
+                    </div>
+                </div>
+              
+          </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </body>
 </html>
