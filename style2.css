@@ -1,0 +1,23 @@
+.main_con{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url("Images/bg2.jpg") ;
+    flex-direction: column;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+.cardbox{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content:space-evenly;
+}
+#pw{
+    margin-left:25px;
+}
+#swayam{
+    margin-right:25px;
+}
