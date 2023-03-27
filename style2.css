@@ -21,3 +21,11 @@
 #swayam{
     margin-right:25px;
 }
+#info{
+    display: flex;
+    margin-top: 20vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
